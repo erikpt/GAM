@@ -180,7 +180,7 @@ GC_Defaults = {
   GC_AUTO_BATCH_MIN: 0,
   GC_CACHE_DIR: u'',
   GC_CHARSET: u'utf-8',
-  GC_CONFIG_DIR: u'',
+  GC_CONFIG_DIR: os.path.dirname(os.path.realpath(__file__)),
   GC_CUSTOMER_ID: u'my_customer',
   GC_DEBUG_LEVEL: 0,
   GC_DEVICE_MAX_RESULTS: 500,
